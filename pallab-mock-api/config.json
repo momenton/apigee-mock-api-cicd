@@ -17,7 +17,7 @@
                     "tokens": [
                         {
                             "xpath": "/ServiceCallout/LocalTargetConnection/Path",
-                            "value": "/v3/mock/xml"
+                            "value": "/v4/mock/xml"
                         }
                     ]
                 }
@@ -28,7 +28,7 @@
                     "tokens": [
                         {
                             "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath",
-                            "value": "/v3/mock"
+                            "value": "/v4/mock"
                         }
                     ]
                 }
