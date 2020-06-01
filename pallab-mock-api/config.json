@@ -28,7 +28,7 @@
                     "tokens": [
                         {
                             "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath",
-                            "value": "/v1/test"
+                            "value": "/v1/xml"
                         }
                     ]
                 }
