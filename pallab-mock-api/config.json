@@ -2,6 +2,26 @@
     "configurations": [
         {
             "name": "test",
+            "policies": [
+                {
+                    "name": "AM-Set-Headers.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/AssignMessage/Set/Headers/Header[@name='ENV']",
+                            "value": "test"
+                        }
+                    ]
+                },
+                {
+                    "name": "SC-Get-XML.xml",
+                    "tokens": [
+                        {
+                            "xpath": "/ServiceCallout/LocalTargetConnection/Path",
+                            "value": "/v9/mock/xml"
+                        }
+                    ]
+                }
+            ],
             "proxies": [
                 {
                     "name": "default.xml",
