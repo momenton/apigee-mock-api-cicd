@@ -48,7 +48,7 @@
         </Flow>
     </Flows>
     <HTTPProxyConnection>
-        <BasePath>/v3/mock</BasePath>
+        <BasePath>/v9/mock</BasePath>
         <Properties/>
         <VirtualHost>secure</VirtualHost>
     </HTTPProxyConnection>

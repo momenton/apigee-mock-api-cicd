@@ -6,6 +6,6 @@
     </Request>
     <Response>calloutResponse</Response>
     <LocalTargetConnection>
-        <Path>/v3/mock/xml</Path>
+        <Path>/v9/mock/xml</Path>
     </LocalTargetConnection>
 </ServiceCallout>
