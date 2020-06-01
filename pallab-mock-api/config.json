@@ -28,7 +28,7 @@
                     "tokens": [
                         {
                             "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath",
-                            "value": "/v9/mock"
+                            "value": "/v1/test"
                         }
                     ]
                 }
@@ -39,7 +39,7 @@
                     "tokens": [
                         {
                             "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
-                            "value": "https://mocktarget.apigee.net/user"
+                            "value": "https://httpbin.org/xml"
                         }
                     ]
                 }
