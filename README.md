@@ -1,5 +1,5 @@
 # apigee-mock-api-cicd
-- Maven deploy instructions 
+- Maven deploy instructions on ec2 instance 
 ```
 cd ./pallab-mock-api
 export apigee_email={apigee username}
