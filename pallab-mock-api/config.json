@@ -28,7 +28,7 @@
                     "tokens": [
                         {
                             "xpath": "/ProxyEndpoint/HTTPProxyConnection/BasePath",
-                            "value": "/v1/xml"
+                            "value": "/v1/json"
                         }
                     ]
                 }
@@ -39,7 +39,7 @@
                     "tokens": [
                         {
                             "xpath": "/TargetEndpoint/HTTPTargetConnection/URL",
-                            "value": "https://httpbin.org/xml"
+                            "value": "https://httpbin.org/json"
                         }
                     ]
                 }
